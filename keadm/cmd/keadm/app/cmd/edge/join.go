@@ -19,7 +19,6 @@ package edge
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/kubeedge/kubeedge/common/types"
 	"net"
 	"net/http"
 	"os"
@@ -31,6 +30,7 @@ import (
 	"github.com/kubeedge/api/apis/common/constants"
 	"github.com/kubeedge/api/apis/componentconfig/edgecore/v1alpha2"
 	apiutil "github.com/kubeedge/api/apis/util"
+	"github.com/kubeedge/kubeedge/common/types"
 	"github.com/kubeedge/kubeedge/keadm/cmd/keadm/app/cmd/common"
 	"github.com/kubeedge/kubeedge/keadm/cmd/keadm/app/cmd/util"
 	"github.com/kubeedge/kubeedge/pkg/viaduct/pkg/api"
